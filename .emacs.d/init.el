@@ -68,6 +68,13 @@
 
 (add-hook 'php-mode-hook 'php-indent-hook)
 
+;; yaml
+(unless (package-installed-p 'yaml-mode)
+  (package-refresh-contents) (package-install 'yaml-mode))
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.ya?ml$" . yaml-mode))
+(define-key yaml-mode-map "\C-m" 'newline-and-indent)
+
 ;;helm
 (require 'helm-config)
 (helm-mode 1)
