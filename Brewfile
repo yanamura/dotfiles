@@ -6,6 +6,7 @@ tap "mono0926/license-plist"
 tap "railwaycat/emacsmacport"
 brew "autoconf"
 brew "automake"
+brew "bash-completion"
 brew "openssl"
 brew "python"
 brew "carthage"
@@ -42,7 +43,11 @@ cask "google-japanese-ime"
 cask "iterm2"
 cask "karabiner-elements"
 cask "kindle"
+cask "sequel-pro"
+cask "slack"
+cask "sourcetree"
 cask "xquartz"
+mas "com.agilebits.onepassword7", id: 1333542190
 mas "com.apple.dt.Xcode", id: 497799835
 mas "com.apple.garageband10", id: 682658836
 mas "com.apple.iMovieApp", id: 408981434

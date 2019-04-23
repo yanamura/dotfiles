@@ -20,3 +20,8 @@ rbenv install 2.4.1
 rbenv global 2.4.1
 
 rbenv exec gem install bundler
+
+# node
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+source ~/.bash_profile
+nvm install 8
