@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#xcode-select --install
-#sudo xcodebuild -license
-
 # dotfiles
 ln -s ~/dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/dotfiles/.git-completion.bash ~/.git-completion.bash
@@ -18,9 +15,8 @@ ln -s ~/dotfiles/.tmux.conf ~/.tmux.conf
 cd ~/dotfiles
 brew bundle
 
-
 # rbenv
-rbenv install 2.4
-rbenv global 2.4
+rbenv install 2.4.1
+rbenv global 2.4.1
 
-gem install bundler
+rbenv exec gem install bundler
