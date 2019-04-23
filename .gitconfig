@@ -1,0 +1,20 @@
+[user]
+	name = Yasuharu Yanamura
+	email = yanamura3@gmail.com
+[core]
+	editor = emacs
+	excludesfile = /Users/yanamura/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/yanamura/.git_commit_template
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[hub]
+	protocol = https
+[branch]
+	sort = -authordate
