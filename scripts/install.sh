@@ -25,3 +25,8 @@ rbenv exec gem install bundler
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
 source ~/.bash_profile
 nvm install 8
+
+# aws cli
+curl -O https://bootstrap.pypa.io/get-pip.py
+python3 get-pip.py --user
+pip3 install awscli --upgrade --user
