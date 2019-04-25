@@ -6,6 +6,9 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
 
+;;color
+(load-theme 'manoj-dark t)
+
 ;;Language
 (set-language-environment 'Japanese)    ; 日本語環境
 (set-default-coding-systems 'utf-8-unix)    ; UTF-8 が基本
