@@ -7,3 +7,6 @@ defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool t
 
 ## dock
 defaults write com.apple.dock show-recents -bool false
+
+## Xcode
+defaults write com.apple.dt.Xcode DVTTextShowInvisibleCharacters 1
