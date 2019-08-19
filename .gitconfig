@@ -18,3 +18,5 @@
 	protocol = https
 [branch]
 	sort = -authordate
+[log]
+	date = iso
