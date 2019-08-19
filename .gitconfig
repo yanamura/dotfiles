@@ -20,3 +20,8 @@
 	sort = -authordate
 [log]
 	date = iso
+[alias]
+	lg = log --color=auto --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+	blg = branch --format '%(color:red)%(objectname:short)%(color:reset) %(color:green)%(committerdate:iso)%(color:reset) %(subject) %(color:bold blue)-- %(authorname)%(color:reset) %(color:yellow)(%(refname:short))%(color:reset)'
+	br = branch --format '%(color:green)%(committerdate:short) %(color:bold blue) %(color:yellow)(%(refname:short))%(color:reset) %(authorname)%(color:reset)'
+	dc = diff --cached
