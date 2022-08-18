@@ -64,3 +64,4 @@ export PATH=~/.local/bin:$PATH
 
 export PATH=/usr/local/Cellar/git/2.19.0_1:$PATH
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+eval "$(/opt/homebrew/bin/brew shellenv)"

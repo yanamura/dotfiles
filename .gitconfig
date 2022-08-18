@@ -15,7 +15,7 @@
 [url "git@github.com:"]
 	insteadOf = https://github.com/
 [hub]
-	protocol = https
+	protocol = ssh
 [branch]
 	sort = -authordate
 [log]
