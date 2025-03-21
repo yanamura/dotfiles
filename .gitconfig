@@ -12,8 +12,6 @@
 	trustExitCode = true
 [commit]
 	template = /Users/yanamura/.git_commit_template
-[url "git@github.com:"]
-	insteadOf = https://github.com/
 [hub]
 	protocol = ssh
 [branch]
